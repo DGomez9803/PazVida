@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/precentacion.unity
+- path: Assets/Scenes/MundoJuego.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
