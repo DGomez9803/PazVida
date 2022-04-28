@@ -6,7 +6,10 @@ using UnityEngine.SceneManagement;
 public class CambioEscena : MonoBehaviour
 {
      // Start is called before the first frame update
-        public string Escena;
+     [SerializeField] private float transitionTime=1f;
+      public string Escena;
+     public Animator TransiAnimator;
+
 
       private   void Start()
     {
@@ -19,8 +22,14 @@ public class CambioEscena : MonoBehaviour
     }
     public void change()
     {
-         SceneManager.LoadScene(Escena);
-
+          StartCoroutine(SceneLoad());
+          
     }
+     public IEnumerator SceneLoad()
+     {
+          TransiAnimator.SetTrigger("startTransi");
+          yield return new WaitForSeconds(transitionTime);
+          SceneManager.LoadScene(Escena);
 
+     }
 }

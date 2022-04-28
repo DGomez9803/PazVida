@@ -8,4 +8,5 @@ public class Personajes : ScriptableObject
  public GameObject personajeJugable;
  public Sprite imagen;
  public string nombre;
+
 }

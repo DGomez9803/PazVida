@@ -4,5 +4,26 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/precentacion.unity
+    guid: 8850914fa38337b49966fe67118720a5
+  - enabled: 1
+    path: Assets/Scenes/SeleccionPersonje.unity
+    guid: 8428c48090ef36f408e6b565e6f4a256
+  - enabled: 1
+    path: Assets/Scenes/MundoJuego.unity
+    guid: 63bd982f65e00d64fa708906a9d98294
+  - enabled: 1
+    path: Assets/Scenes/Main menu.unity
+    guid: 7e938aed6dfe91e498078996355b5984
+  - enabled: 1
+    path: Assets/Scenes/Inicio.unity
+    guid: a523a9783e8093d4a8b44d3eaea48040
+  - enabled: 1
+    path: Assets/Scenes/registro.unity
+    guid: 9c6de7aa449245649befe50393e926f5
+  - enabled: 1
+    path: Assets/Scenes/SeleccionMapa.unity
+    guid: 61feb23b1fce4ec429bc1e94d178cf68
   m_configObjects: {}
