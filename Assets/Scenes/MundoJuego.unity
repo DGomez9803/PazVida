@@ -175,7 +175,7 @@ TilemapRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 83c612fb7985518499abb6326497e3c1, type: 2}
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -197,7 +197,7 @@ TilemapRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
-  m_ChunkCullingBounds: {x: 0, y: 0.9375, z: 0}
+  m_ChunkCullingBounds: {x: 0.0031446815, y: 0.9375, z: 0}
   m_MaxChunkCount: 16
   m_MaxFrameAge: 16
   m_SortOrder: 0
@@ -5602,7 +5602,6 @@ GameObject:
   - component: {fileID: 438581325}
   - component: {fileID: 438581327}
   - component: {fileID: 438581326}
-  - component: {fileID: 438581328}
   m_Layer: 0
   m_Name: suelo
   m_TagString: Untagged
@@ -5622,7 +5621,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 711977722}
-  m_RootOrder: 0
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!483693784 &438581326
 TilemapRenderer:
@@ -5643,7 +5642,7 @@ TilemapRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 83c612fb7985518499abb6326497e3c1, type: 2}
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5665,7 +5664,7 @@ TilemapRenderer:
   m_SortingLayer: 0
   m_SortingOrder: -1
   m_ChunkSize: {x: 32, y: 32, z: 32}
-  m_ChunkCullingBounds: {x: 0, y: 0, z: 0}
+  m_ChunkCullingBounds: {x: 0.0031446815, y: 0.0031446815, z: 0}
   m_MaxChunkCount: 16
   m_MaxFrameAge: 16
   m_SortOrder: 0
@@ -96437,25 +96436,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!95 &438581328
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 438581324}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: ee2f0dd5d997eaa47960f3c5e28be199, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &711977720
 GameObject:
   m_ObjectHideFlags: 0
@@ -96496,8 +96476,8 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 64, y: 64, z: 1}
   m_Children:
-  - {fileID: 438581325}
   - {fileID: 1256701088}
+  - {fileID: 438581325}
   - {fileID: 1218839883}
   - {fileID: 270383492}
   - {fileID: 416008131}
@@ -96579,7 +96559,7 @@ TilemapRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
-  m_ChunkCullingBounds: {x: 0.0625, y: 0.4375, z: 0}
+  m_ChunkCullingBounds: {x: 0.066037774, y: 0.44339627, z: 0}
   m_MaxChunkCount: 16
   m_MaxFrameAge: 16
   m_SortOrder: 0
@@ -138349,7 +138329,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 711977722}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!483693784 &1256701089
 TilemapRenderer:
@@ -138396,7 +138376,7 @@ TilemapRenderer:
   m_MaxChunkCount: 16
   m_MaxFrameAge: 16
   m_SortOrder: 0
-  m_Mode: 0
+  m_Mode: 1
   m_DetectChunkCullingBounds: 0
   m_MaskInteraction: 0
 --- !u!1839735485 &1256701090
@@ -141713,7 +141693,7 @@ TilemapRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 83c612fb7985518499abb6326497e3c1, type: 2}
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -143256,6 +143236,95 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1001 &1755393661
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2472264917592235713, guid: 4953c24fe43dfa447a55c83fdd03fd3f,
+        type: 3}
+      propertyPath: dialogueLines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2472264917592235713, guid: 4953c24fe43dfa447a55c83fdd03fd3f,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[0]
+      value: Inglesia de ovejas
+      objectReference: {fileID: 0}
+    - target: {fileID: 2472264917592235713, guid: 4953c24fe43dfa447a55c83fdd03fd3f,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[1]
+      value: Hola Buen dia bienvenido a nuestra inglesia
+      objectReference: {fileID: 0}
+    - target: {fileID: 4399751599272634093, guid: 4953c24fe43dfa447a55c83fdd03fd3f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 35.540283
+      objectReference: {fileID: 0}
+    - target: {fileID: 6869061838160670228, guid: 4953c24fe43dfa447a55c83fdd03fd3f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6869061838160670228, guid: 4953c24fe43dfa447a55c83fdd03fd3f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2521
+      objectReference: {fileID: 0}
+    - target: {fileID: 6869061838160670228, guid: 4953c24fe43dfa447a55c83fdd03fd3f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6869061838160670228, guid: 4953c24fe43dfa447a55c83fdd03fd3f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6869061838160670228, guid: 4953c24fe43dfa447a55c83fdd03fd3f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6869061838160670228, guid: 4953c24fe43dfa447a55c83fdd03fd3f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6869061838160670228, guid: 4953c24fe43dfa447a55c83fdd03fd3f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6869061838160670228, guid: 4953c24fe43dfa447a55c83fdd03fd3f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6869061838160670228, guid: 4953c24fe43dfa447a55c83fdd03fd3f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6869061838160670228, guid: 4953c24fe43dfa447a55c83fdd03fd3f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6869061838160670228, guid: 4953c24fe43dfa447a55c83fdd03fd3f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6869061838160670230, guid: 4953c24fe43dfa447a55c83fdd03fd3f,
+        type: 3}
+      propertyPath: m_Name
+      value: Npc pazita
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4953c24fe43dfa447a55c83fdd03fd3f, type: 3}
 --- !u!1 &1966827889
 GameObject:
   m_ObjectHideFlags: 0

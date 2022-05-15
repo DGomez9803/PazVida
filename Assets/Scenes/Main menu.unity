@@ -1246,7 +1246,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: JUGUEMOS PAZ A LA VIDA
+  m_text: "JUGUEMOS \nPAZ-A-LA-VIDA"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: c1d2903bdcaab8848bc031f58829f9be, type: 2}
   m_sharedMaterial: {fileID: 5074981633799914893, guid: c1d2903bdcaab8848bc031f58829f9be,
