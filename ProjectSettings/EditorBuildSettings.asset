@@ -26,4 +26,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SeleccionMapa.unity
     guid: 61feb23b1fce4ec429bc1e94d178cf68
+  - enabled: 1
+    path: Assets/Scenes/Ejes tematicos/casa de familia.unity
+    guid: 6d2347be561bf0d489839e3f247fc5d4
+  - enabled: 1
+    path: Assets/Scenes/Ejes tematicos/casa de justicia.unity
+    guid: 6709c88f4dbe713419a232bbab1a6b3d
+  - enabled: 1
+    path: Assets/Scenes/Ejes tematicos/casa juvenil.unity
+    guid: a661222c7aa15e149a9f3634d3d725cb
+  - enabled: 1
+    path: Assets/Scenes/Ejes tematicos/casa de cultura.unity
+    guid: 444a3951de8e32a4f96ded51ec5af231
+  - enabled: 1
+    path: Assets/Scenes/Ejes tematicos/escuela.unity
+    guid: b4ee498296a9e05408f4b86c56d164fd
+  - enabled: 1
+    path: Assets/Scenes/Mascotas.unity
+    guid: 8921ffb0398d37440a96ba70c92cbd12
   m_configObjects: {}
