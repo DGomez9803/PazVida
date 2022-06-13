@@ -123,6 +123,37 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &500941542
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 500941543}
+  m_Layer: 0
+  m_Name: Npcs
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &500941543
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 500941542}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 709.3376, y: -25.90657, z: -1452.1942}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 810402710}
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &539915261
 GameObject:
   m_ObjectHideFlags: 0
@@ -2322,6 +2353,119 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &810402709
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 500941543}
+    m_Modifications:
+    - target: {fileID: 2472264917592235713, guid: 4953c24fe43dfa447a55c83fdd03fd3f,
+        type: 3}
+      propertyPath: dialogueLines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2472264917592235713, guid: 4953c24fe43dfa447a55c83fdd03fd3f,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[0]
+      value: Hola que distingue al joven que es muy activo y participante?
+      objectReference: {fileID: 0}
+    - target: {fileID: 2472264917592235713, guid: 4953c24fe43dfa447a55c83fdd03fd3f,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[1]
+      value: "Los j\xF3venes pueden ser actores reflexivos, autocr\xEDticos, vigorosos
+        y persistentes para resistir y desafiar contextos de violencia."
+      objectReference: {fileID: 0}
+    - target: {fileID: 4399751599272634093, guid: 4953c24fe43dfa447a55c83fdd03fd3f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 6869061838160670228, guid: 4953c24fe43dfa447a55c83fdd03fd3f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6869061838160670228, guid: 4953c24fe43dfa447a55c83fdd03fd3f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -493
+      objectReference: {fileID: 0}
+    - target: {fileID: 6869061838160670228, guid: 4953c24fe43dfa447a55c83fdd03fd3f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -114
+      objectReference: {fileID: 0}
+    - target: {fileID: 6869061838160670228, guid: 4953c24fe43dfa447a55c83fdd03fd3f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1452.1942
+      objectReference: {fileID: 0}
+    - target: {fileID: 6869061838160670228, guid: 4953c24fe43dfa447a55c83fdd03fd3f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6869061838160670228, guid: 4953c24fe43dfa447a55c83fdd03fd3f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6869061838160670228, guid: 4953c24fe43dfa447a55c83fdd03fd3f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6869061838160670228, guid: 4953c24fe43dfa447a55c83fdd03fd3f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6869061838160670228, guid: 4953c24fe43dfa447a55c83fdd03fd3f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6869061838160670228, guid: 4953c24fe43dfa447a55c83fdd03fd3f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6869061838160670228, guid: 4953c24fe43dfa447a55c83fdd03fd3f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6869061838160670230, guid: 4953c24fe43dfa447a55c83fdd03fd3f,
+        type: 3}
+      propertyPath: m_Name
+      value: Npc1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6869061838160670230, guid: 4953c24fe43dfa447a55c83fdd03fd3f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 6869061838160670231, guid: 4953c24fe43dfa447a55c83fdd03fd3f,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: c6b01a35b774d3549807ba71c4bf74c1,
+        type: 3}
+    - target: {fileID: 7393966462008824270, guid: 4953c24fe43dfa447a55c83fdd03fd3f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6869061838160670216, guid: 4953c24fe43dfa447a55c83fdd03fd3f, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 4953c24fe43dfa447a55c83fdd03fd3f, type: 3}
+--- !u!4 &810402710 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6869061838160670228, guid: 4953c24fe43dfa447a55c83fdd03fd3f,
+    type: 3}
+  m_PrefabInstance: {fileID: 810402709}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &876746579
 GameObject:
   m_ObjectHideFlags: 0

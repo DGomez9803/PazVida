@@ -4380,6 +4380,38 @@ TilemapCollider2D:
   m_Offset: {x: 0, y: 0}
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0.00001
+--- !u!1 &572368764
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 572368765}
+  m_Layer: 0
+  m_Name: Npcs
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &572368765
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 572368764}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 709.3376, y: -25.90657, z: -1452.1942}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1443307444}
+  - {fileID: 831616032}
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &589012881
 GameObject:
   m_ObjectHideFlags: 0
@@ -4960,6 +4992,119 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 121}
   m_SizeDelta: {x: 354.0399, y: 202.1491}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1001 &831616031
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 572368765}
+    m_Modifications:
+    - target: {fileID: 2472264917592235713, guid: 4953c24fe43dfa447a55c83fdd03fd3f,
+        type: 3}
+      propertyPath: dialogueLines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2472264917592235713, guid: 4953c24fe43dfa447a55c83fdd03fd3f,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[0]
+      value: "\xBFy quien m\xE1s nos puede ayudar a que se cumplar los derechos humanos?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 2472264917592235713, guid: 4953c24fe43dfa447a55c83fdd03fd3f,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[1]
+      value: "distintos organismos intergubernamentales como comisi\xF3n de naciones
+        unidades "
+      objectReference: {fileID: 0}
+    - target: {fileID: 4399751599272634093, guid: 4953c24fe43dfa447a55c83fdd03fd3f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 6869061838160670228, guid: 4953c24fe43dfa447a55c83fdd03fd3f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6869061838160670228, guid: 4953c24fe43dfa447a55c83fdd03fd3f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1064
+      objectReference: {fileID: 0}
+    - target: {fileID: 6869061838160670228, guid: 4953c24fe43dfa447a55c83fdd03fd3f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 549
+      objectReference: {fileID: 0}
+    - target: {fileID: 6869061838160670228, guid: 4953c24fe43dfa447a55c83fdd03fd3f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1452.1942
+      objectReference: {fileID: 0}
+    - target: {fileID: 6869061838160670228, guid: 4953c24fe43dfa447a55c83fdd03fd3f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6869061838160670228, guid: 4953c24fe43dfa447a55c83fdd03fd3f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6869061838160670228, guid: 4953c24fe43dfa447a55c83fdd03fd3f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6869061838160670228, guid: 4953c24fe43dfa447a55c83fdd03fd3f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6869061838160670228, guid: 4953c24fe43dfa447a55c83fdd03fd3f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6869061838160670228, guid: 4953c24fe43dfa447a55c83fdd03fd3f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6869061838160670228, guid: 4953c24fe43dfa447a55c83fdd03fd3f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6869061838160670230, guid: 4953c24fe43dfa447a55c83fdd03fd3f,
+        type: 3}
+      propertyPath: m_Name
+      value: Npc1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6869061838160670230, guid: 4953c24fe43dfa447a55c83fdd03fd3f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 6869061838160670231, guid: 4953c24fe43dfa447a55c83fdd03fd3f,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 33321a597cc724a4c81ae5a59582a2ca,
+        type: 3}
+    - target: {fileID: 7393966462008824270, guid: 4953c24fe43dfa447a55c83fdd03fd3f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6869061838160670216, guid: 4953c24fe43dfa447a55c83fdd03fd3f, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 4953c24fe43dfa447a55c83fdd03fd3f, type: 3}
+--- !u!4 &831616032 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6869061838160670228, guid: 4953c24fe43dfa447a55c83fdd03fd3f,
+    type: 3}
+  m_PrefabInstance: {fileID: 831616031}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &831922525
 GameObject:
   m_ObjectHideFlags: 0
@@ -9976,6 +10121,118 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1297601987}
   m_CullTransparentMesh: 1
+--- !u!1001 &1443307443
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 572368765}
+    m_Modifications:
+    - target: {fileID: 2472264917592235713, guid: 4953c24fe43dfa447a55c83fdd03fd3f,
+        type: 3}
+      propertyPath: dialogueLines.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2472264917592235713, guid: 4953c24fe43dfa447a55c83fdd03fd3f,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[0]
+      value: quien garantiza que se cumplan los derechos humanos
+      objectReference: {fileID: 0}
+    - target: {fileID: 2472264917592235713, guid: 4953c24fe43dfa447a55c83fdd03fd3f,
+        type: 3}
+      propertyPath: dialogueLines.Array.data[1]
+      value: Las instituciones en manos de las autoridades (legales y judiciales)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4399751599272634093, guid: 4953c24fe43dfa447a55c83fdd03fd3f,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 36
+      objectReference: {fileID: 0}
+    - target: {fileID: 6869061838160670228, guid: 4953c24fe43dfa447a55c83fdd03fd3f,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6869061838160670228, guid: 4953c24fe43dfa447a55c83fdd03fd3f,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -898
+      objectReference: {fileID: 0}
+    - target: {fileID: 6869061838160670228, guid: 4953c24fe43dfa447a55c83fdd03fd3f,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -170
+      objectReference: {fileID: 0}
+    - target: {fileID: 6869061838160670228, guid: 4953c24fe43dfa447a55c83fdd03fd3f,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1452.1942
+      objectReference: {fileID: 0}
+    - target: {fileID: 6869061838160670228, guid: 4953c24fe43dfa447a55c83fdd03fd3f,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6869061838160670228, guid: 4953c24fe43dfa447a55c83fdd03fd3f,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6869061838160670228, guid: 4953c24fe43dfa447a55c83fdd03fd3f,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6869061838160670228, guid: 4953c24fe43dfa447a55c83fdd03fd3f,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6869061838160670228, guid: 4953c24fe43dfa447a55c83fdd03fd3f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6869061838160670228, guid: 4953c24fe43dfa447a55c83fdd03fd3f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6869061838160670228, guid: 4953c24fe43dfa447a55c83fdd03fd3f,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6869061838160670230, guid: 4953c24fe43dfa447a55c83fdd03fd3f,
+        type: 3}
+      propertyPath: m_Name
+      value: Npc1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6869061838160670230, guid: 4953c24fe43dfa447a55c83fdd03fd3f,
+        type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 6869061838160670231, guid: 4953c24fe43dfa447a55c83fdd03fd3f,
+        type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 5e5a2463c638c024aaa40e87107b1d79,
+        type: 3}
+    - target: {fileID: 7393966462008824270, guid: 4953c24fe43dfa447a55c83fdd03fd3f,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 6869061838160670216, guid: 4953c24fe43dfa447a55c83fdd03fd3f, type: 3}
+  m_SourcePrefab: {fileID: 100100000, guid: 4953c24fe43dfa447a55c83fdd03fd3f, type: 3}
+--- !u!4 &1443307444 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6869061838160670228, guid: 4953c24fe43dfa447a55c83fdd03fd3f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1443307443}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1513523420
 GameObject:
   m_ObjectHideFlags: 0
