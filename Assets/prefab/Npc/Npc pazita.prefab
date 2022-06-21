@@ -167,8 +167,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: Prueba
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 2e498d1c8094910479dc3e1b768306a4, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: d6ca42b7b56288942bbed2c6cde826fc, type: 2}
+  m_sharedMaterial: {fileID: -6562563664822096206, guid: d6ca42b7b56288942bbed2c6cde826fc,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -326,7 +327,7 @@ GameObject:
   - component: {fileID: 7860465973685221014}
   m_Layer: 0
   m_Name: Npc pazita
-  m_TagString: Untagged
+  m_TagString: npc
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -459,7 +460,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 1
-  m_Constraints: 4
+  m_Constraints: 7
 --- !u!95 &6869061838160670216
 Animator:
   serializedVersion: 3
@@ -522,7 +523,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &4399751599272634093
 RectTransform:
   m_ObjectHideFlags: 0
